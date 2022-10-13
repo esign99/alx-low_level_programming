@@ -1,2 +1,1 @@
-#!/bin/bash
-coding in c
+start a coding level
