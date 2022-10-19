@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * main - print _putchar
- * is written to print _putchar
- * Return: 0
+ * is written by dennis
+ * Return: 0 
  */
 
 int main(void)
