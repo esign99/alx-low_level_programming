@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
- * is written by dennis
+ * is written to print _putchar
  * Return: 0
  */
 
