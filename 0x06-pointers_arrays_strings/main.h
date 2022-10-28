@@ -2,6 +2,7 @@
 #define MAIN_H
 
 char *_strncat(char *dest, char *src, int n);
+char *_strncpy(har *dest, char *src, int n);
 
 
 
