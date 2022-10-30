@@ -1,18 +1,20 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - entry point
- * Description: prints char below 10
- * Return: Always 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int a;
+	int d;
 
-	for (a =0; a < 10; a++)
-	{
-		putchar(a + '0');
-	}
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
 	putchar('\n');
+
 	return (0);
 }

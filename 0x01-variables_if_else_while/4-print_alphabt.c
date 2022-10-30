@@ -1,23 +1,26 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - entry point
- * Description: print lowercase alphabets
- * Return: Always 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int ch;
+	char low, e, q;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		else
-		{
-		}
+		if (low != e && low != q)
+			putchar(low);
 	}
 	putchar('\n');
+
 	return (0);
+}

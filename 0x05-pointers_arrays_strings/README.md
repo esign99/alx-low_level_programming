@@ -1,1 +1,1 @@
-programming in low level
+pointers array strings
