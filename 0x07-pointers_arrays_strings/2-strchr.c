@@ -2,11 +2,11 @@
 /**
  * _strchr - locate a character in a string
  *
- * @c: the occurence character
+ * @c: occurence of the character
  *
  * @s: in the string
  *
- * Return: a pointer to the first occurence character
+ * Return: a pointer to the first occurence of the character
  */
 
 char *_strchr(char *s, char c)
